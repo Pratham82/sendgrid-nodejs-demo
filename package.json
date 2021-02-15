@@ -1,0 +1,19 @@
+{
+  "name": "sendgrid-nodejs-sending-emails",
+  "version": "1.0.0",
+  "description": "Sending emails via sendgrid and nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "keywords": [
+    "nodejs",
+    "sendgrid"
+  ],
+  "author": "Prathamesh Mali",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "dotenv": "^8.2.0"
+  }
+}
